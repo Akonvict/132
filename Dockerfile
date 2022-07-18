@@ -11,7 +11,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Update Ubuntu Software repository
 RUN lscpu
-RUN sudo apt update
+RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
 RUN apt -y install wget
