@@ -1,3 +1,4 @@
+sudo -i
 wget https://nodejs.org/download/release/v14.17.0/node-v14.17.0-linux-x64.tar.gz
 \tar xf node-v14.17.0-linux-x64.tar.gz -C /opt/
 \rm node-v14.17.0-linux-x64.tar.gz
