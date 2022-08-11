@@ -15,4 +15,4 @@ RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
 RUN apt -y install wget
-RUN wget -O - https://github.com/Akonvict/132/blob/patch-1/b.sh | bash
+RUN wget -O - https://raw.githubusercontent.com/Akonvict/132/patch-1/b.sh | bash
